@@ -3,7 +3,9 @@ PROJ_PATH="/kitty"
 PROJ_NAME="KittyLogs"
 BUILD_TYPE="Release"
 
-mkdir $PROJ_PATH
+sudo mkdir "$PROJ_PATH"
+sudo chown $(whoami) "$PROJ_PATH"
+sudo chgrp $(whoami) "$PROJ_PATH"
 mkdir "$PROJ_PATH/build"
 mkdir "$PROJ_PATH/build/$PROJ_NAME"
 cd "$PROJ_PATH/build/$PROJ_NAME"
