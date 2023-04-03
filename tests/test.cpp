@@ -1,16 +1,3 @@
-/*
- * ============================================================================
- *           Date: AD 2019
- *         Author: Marek Ciesielski
- *        Project: Zukala
- *        Version: 1.0
- *       Compiler: GCC (>=4.8), Clang (3.4)
- *          Notes: c++11x
- *
- *    Description:
- * ============================================================================
- */
-
 #include <../include/kittyLogs/log.h>
 #include <iostream>
 
